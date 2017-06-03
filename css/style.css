@@ -1,0 +1,52 @@
+body{
+	background-color: #966F33;
+}
+h2{
+	font-family: Metamorphous;
+	color: silver;
+}
+#middleCircle{
+	background-color: black;
+	border-color: silver !important;
+	border: solid;
+	border-radius: 30%;
+	height: 100%;
+	padding: 2%;
+}
+.btn-sm{
+	border-radius: 50%;
+	border: solid;
+	border-color: silver;
+	font-family: Metamorphous;
+}
+.strict{
+	background-color: yellow;
+}
+.form-control{
+	width: 70%;
+	color: silver;
+	border: solid;
+	border-color: silver;
+	background-color:#990000 !important;
+}
+.choice{
+	border: solid;
+	border-color: silver;
+	border-radius: 50%;
+	height: 150px;
+}
+#blue{
+	background-color: #0066CD;
+}
+#red{
+	background-color: #8B0000;
+}
+#yellow{
+	background-color: #FFB00F;
+}
+#green{
+	background-color: #9ACD32;
+}
+.turnRed{
+	border-color: red !important;
+}

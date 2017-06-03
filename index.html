@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container">
+	<br>
+	<div class="row">
+		<div class="col-sm-2 offset-sm-5">
+			<div id="blue" class="choice">
+				<!--Top Button-->
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-2">
+			<div id="green" class="choice">
+				<!--Left Button-->
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div id="middleCircle" class="text-center">
+				<!--Middle Circle-->
+				<h2>SIMON GAME</h2>
+				<br>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-2"><button id="startButt" class="btn-sm btn-danger">Start</button></div>
+					<div class="col-sm-1"></div>
+					<div class="col-sm-2"><button id="strictButt" class="btn-sm btn-secondary strict">Strict</button></div>
+					<div class="col-sm-1"></div>
+					<div class="col-sm-4"><input id="countForm" class="form-control form-control" type="number" placeholder="--" disabled></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div id="yellow" class="choice">
+				<!--Right Button-->
+			</div>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-sm-2 offset-sm-5">
+			<div id="red" class="choice">
+				<!--Bottom Button-->
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
